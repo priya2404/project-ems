@@ -18,7 +18,8 @@ body
     background-color: rgba(245, 222, 179, 0);
     box-shadow: 2px 3px 8px 6px #d3d1d1;
     padding: 10px;
-    width:auto;
+    width: 90px;
+    height:150px;
     align-content: center;
     margin:auto;
 
@@ -67,20 +68,22 @@ body
     border-radius: 8px;
 } */
 .btn {
-    display: inline-block;
+    float:right;
+    /* display: inline-block; */
     padding: 15px 25px;
     font-size: 20px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    outline: none;
+    margin-right: 2em;
+    
     color: #fff;
     background-color:rgb(206, 19, 19);
     border: none;
     border-radius: 10px;
-    box-shadow: 0 8px #999;
-    width:15%;
-    height:40px;
+    box-shadow: 0 12px #999;
+    width:8%;
+    height:38px;
   }
   
   .btn:hover {background-color: #27c42c}
@@ -103,7 +106,7 @@ body
     border: none;
     border-radius: 10px;
     box-shadow: 0 8px #999;
-    width:25%;
+    width:15%;
     height:40px;
   }
   
@@ -114,4 +117,5 @@ body
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+  
 

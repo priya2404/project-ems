@@ -9,7 +9,12 @@
 </head>
 <body>
     <h1>Speaker Dashboard</h1>
-
+    
+<div class"log">
+    <button (click)="logout()" class="btn">Logout</button>
+    <button (click)="viewfeedback()" class="btnfeedback">View Feedback</button>
+    
+</div>
     <div class="card" style="width: 50rem; " *ngFor="let data of dt;">
         
         <div class="card-body">
@@ -20,12 +25,12 @@
          
           <h3 class="card-text">UserName: {{data.pname}}</h3>
 
-          <button (click)="logout()" class="btn">Logout</button>
-           <button (click)="viewfeedback()" class="btnfeedback">View Feedback</button>
+         
           
          
         </div>
-      </div>
+      
     </div>
+    
 </body>
 </html>
